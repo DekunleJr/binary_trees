@@ -9,5 +9,5 @@
 int heap_extract(heap_t **root)
 {
 	printf("%d", (*root)->n);
-		return (root);
+		return (*root);
 }
